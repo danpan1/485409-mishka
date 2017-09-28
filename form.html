@@ -16,57 +16,65 @@
 </header>
 
 <main class="page-main">
-  <h1 class="page-form__header">Вязание на заказ</h1>
+  <h1 class="page-main__header">Вязание на заказ</h1>
   <section class="form">
     <p class="form__text">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
     <form>
-      <section class="form__section">
-        <h3 class="form__title">ТИП</h3>
-        <input type="radio" id="type1" name="type" value="type1">
-        <label for="type1">Аксессуар для интерьера</label>
-        <input type="radio" id="type2" name="type" value="type2">
-        <label for="type2">Детская игрушка</label>
-      </section>
-      <section class="form__section">
-        <h3 class="form__title">ЦВЕТ</h3>
-        <input type="checkbox" id="color1" name="color" value="color1">
-        <label for="color1">Белый</label>
-        <input type="checkbox" id="color2" name="color" value="color2">
-        <label for="color2">Серый</label>
-        <input type="checkbox" id="color3" name="color" value="color3">
-        <label for="color3">«Тиффани»</label>
-        <input type="checkbox" id="color4" name="color" value="color4">
-        <label for="color4">Черный</label>
-        <input type="checkbox" id="color5" name="color" value="color5">
-        <label for="color5">Розовый</label>
-        <input type="checkbox" id="color6" name="color" value="color6">
-        <label for="color6">Оранжевый</label>
-      </section>
-      <section class="form__section">
-        <h3 class="form__title">ФИО</h3>
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Тип</legend>
+        <label>
+          <input type="radio" id="type1" name="type" value="type1"> Аксессуар для интерьера
+        </label>
+        <label>
+          <input type="radio" id="type2" name="type" value="type2"> Детская игрушка
+        </label>
+      </fieldset>
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Цвет</legend>
+        <label>
+          <input type="checkbox" id="color1" name="color" value="color1"> Белый
+        </label>
+        <label>
+          <input type="checkbox" id="color2" name="color" value="color2"> Серый
+        </label>
+        <label>
+          <input type="checkbox" id="color3" name="color" value="color3"> «Тиффани»
+        </label>
+        <label>
+          <input type="checkbox" id="color4" name="color" value="color4"> Черный
+        </label>
+        <label>
+          <input type="checkbox" id="color5" name="color" value="color5"> Розовый
+        </label>
+        <label>
+          <input type="checkbox" id="color6" name="color" value="color6"> Оранжевый
+        </label>
+      </fieldset>
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">ФИО</legend>
         <label for="name">Имя:</label>
         <input type="text" id="name" name="name" value="">
         <label for="surname">Фамилия:</label>
         <input type="text" id="surname" name="surname" value="">
         <label for="second-name">Отчество:</label>
         <input type="text" id="second-name" name="second-name" value="">
-      </section>
-      <section class="form__section">
-        <h3 class="form__title">ТЕЛ</h3>
-        <input type="text" id="phone" name="phone" value="" />
-      </section>
-      <section class="form__section">
-        <h3 class="form__title">E-mail</h3>
-        <input type="text" id="email" name="email" value="" />
-      </section>
-      <section class="form__section">
-        <h3 class="form__title">Доп</h3>
-        <textarea type="text" id="comments" name="comments" > </textarea>
-      </section>
-      <small class="from__legend">
+      </fieldset>
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Тел</legend>
+        <input type="tel" id="phone" name="phone" value="" />
+      </fieldset>
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">E-mail</legend>
+        <input type="email" id="email" name="email" value="" />
+      </fieldset>
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Доп</legend>
+        <textarea id="comments" name="comments" > </textarea>
+      </fieldset>
+      <small class="form__legend">
         <sup>*</sup>Поля обязательны для заполнения
       </small>
-      <a href="#" class="form__make-order button">Отправить заказ</a>
+      <input type="submit"  class="form__make-order button">Отправить заказ</input>
     </form>
   </section>
 
@@ -94,54 +102,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
