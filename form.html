@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Интернет-магазин «Mishka»</title>
+</head>
+<body>
+
+<header class="page-header">
+  <a class="page-header__logo">
+    <img class="page-header__logo-image" src="http://placehold.it/150x100" width="226" height="30" alt="Интернет-магазин «Mishka»">
+  </a>
+  <nav class="main-nav">
+    <button class="main-nav__toggle" type="button">Открыть меню</button>
+  </nav>
+</header>
+
+<main class="page-main">
+  <h1 class="page-main__header">Вязание на заказ</h1>
+  <section class="form">
+    <p class="form__text">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+    <form>
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Тип</legend>
+        <label>
+          <input type="radio" id="type1" name="type" value="type1"> Аксессуар для интерьера
+        </label>
+        <label>
+          <input type="radio" id="type2" name="type" value="type2"> Детская игрушка
+        </label>
+      </fieldset>
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Цвет</legend>
+        <label>
+          <input type="checkbox" id="color1" name="color" value="color1"> Белый
+        </label>
+        <label>
+          <input type="checkbox" id="color2" name="color" value="color2"> Серый
+        </label>
+        <label>
+          <input type="checkbox" id="color3" name="color" value="color3"> «Тиффани»
+        </label>
+        <label>
+          <input type="checkbox" id="color4" name="color" value="color4"> Черный
+        </label>
+        <label>
+          <input type="checkbox" id="color5" name="color" value="color5"> Розовый
+        </label>
+        <label>
+          <input type="checkbox" id="color6" name="color" value="color6"> Оранжевый
+        </label>
+      </fieldset>
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">ФИО</legend>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" value="">
+        <label for="surname">Фамилия:</label>
+        <input type="text" id="surname" name="surname" value="">
+        <label for="second-name">Отчество:</label>
+        <input type="text" id="second-name" name="second-name" value="">
+      </fieldset>
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Тел</legend>
+        <input type="tel" id="phone" name="phone" value="" />
+      </fieldset>
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">E-mail</legend>
+        <input type="email" id="email" name="email" value="" />
+      </fieldset>
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Доп</legend>
+        <textarea id="comments" name="comments" > </textarea>
+      </fieldset>
+      <small class="form__legend">
+        <sup>*</sup>Поля обязательны для заполнения
+      </small>
+      <input type="submit"  class="form__make-order button">Отправить заказ</input>
+    </form>
+  </section>
+
+</main>
+
+<footer class="page-footer">
+  <div class="page-footer__social social">
+    <ul class="social__list">
+      <li class="social__item">
+        <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
+      </li>
+    </ul>
+  </div>
+  <div class="page-footer__copyright copyright">
+    <b class="copyright__text">Разработано:</b>
+    <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+  </div>
+</footer>
+
+</body>
+</html>
